@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Info</title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Personal Information</h1>
+        </header>
+
+        <form method="get">
+            <table align="center">
+                <tr class="name">
+                    <td><label for="f-name"> First Name : </label></td>
+                    <td><input type="text" id="f-name" name="firstname"></td>
+                    <td><small id="f-name_err"></small</td>
+                </tr>
+                
+                <tr class="name">
+                    <td><label for="l-name" class="name"> Last Name : </label></td>
+                    <td><input type="text" id="l-name" name="lastname"></td>
+                    <td><small id="l-name_err"></small></td>
+                </tr>
+                
+                <tr class="name">
+                    <td><label for="fthr-name" class="name"> Father's Name : </label></td>
+                    <td><input type="text" id="fthr-name" name="fathername"></td>
+                    <td><small id=fthr-name_err></small></td>
+                </tr>
+                
+                <tr class="name"> 
+                    <td><label for="mthr-name" class="name"> Mother's Name : </label></td>
+                    <td><input type="text" id="mthr-name" name="mothername"></td>
+                    <td><small id=mthr-name_err></small></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="dob"> D.O.B : </label></td>
+                    <td><input type="date" id="dob" name="dob"></td>
+                    <td><small id=mthr-name_err></small></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="gender"> Gender : </label></td>
+                    <td>
+                        <input type="radio" id="gender1" name="gender" value="male"> 
+                        <label for="gender1" class="gender"> Male </label>
+                        <input type="radio" id="gender2" name="gender" value="female">
+                        <label for="gender2" class="gender"> Female </label>
+                        <td><small></small></td>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="mobile">Mobile No : </label></td>
+                    <td><input type="text" id="mobile" name="mobile"></td>
+                    <td><small id="mobile_err"></small></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email ID : </label></td>
+                    <td><input type="email" id="email" name="email"></td>
+                    <td><small></small></td>
+                </tr>
+
+                <tr>
+                    <td><label for="houseno"> House No : </label></td>
+                    <td><input type="text" id="houseno" name="houseno"></td>
+                    <td><small></small></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="street"> Street : </label></td>
+                    <td><input type="text" id="street" name="street"></td>
+                    <td><small></small></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="area"> Area : </label></td>
+                    <td><input type="text" id="area" name="area"></td>
+                    <td><small></small></td>
+                </tr>
+                
+                <tr  class="place">
+                    <td><label for="city"> City : </label></td>
+                    <td><input type="text" id="city" name="city"></td>
+                    <td><small id="city_err"></small></td>
+                </tr>
+                
+                <tr  class="place">
+                    <td><label for="state"> State : </label></td>
+                    <td><input type="text" id="state" name="state"></td>
+                    <td><small id="state_err"></small></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="pin"> PIN Code : </label></td>
+                    <td><input type="number" id="pin" name="pin"></td>
+                    <td><small></small></td>
+                </tr>
+            </table>
+            <input type="submit" value="Submit" id="submit_btn">
+          </form>  
+
+
+    </body>
+</html>

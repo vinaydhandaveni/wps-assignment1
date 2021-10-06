@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    background-color: rgb(222, 236, 247);
+    margin-top: 2%;
+}
+
+form *{
+    margin-top: 2%;
+}
+form{
+    border: olive 5px solid;
+    background-color: rgb(241, 241, 216);
+    border-radius: 50px;
+    padding: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+}
+input,select{
+    margin-left: 10%;
+}
+
+input:not([type="radio"],[type="submit"]),select{
+    width: 200px;
+    box-sizing: border-box;
+}
+
+label:not([for="gender1"],[for="gender2"]){
+    display: inline-block;
+    width: 250x;
+    text-align: left;
+}
+
+table{
+    text-align: left;
+}
+
+small{
+    padding-left: 27px;
+    width: 200px;
+    color: red;
+}

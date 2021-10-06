@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Attendance Info</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script> 
+    </head>
+
+    <body>
+        <h1>Attendance Information</h1>
+        <form>
+            <table align="center">
+                <tr class="name">
+                    <td><label for="name">Name : </label></td>
+                    <td><input type="text" id="name" name="name"></td>
+                    <td><small id="name_err"></small></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="attendance">Attendance : </label></td>
+                    <td><input type="number" step="0.01" min="0" max="100"></td>
+                </tr>
+            </table>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
